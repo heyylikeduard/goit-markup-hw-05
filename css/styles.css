@@ -541,10 +541,10 @@ address {
     pointer-events: none;
 }
 
-/* .backdrop.is-open {
+.backdrop.is-open {
     opacity: 1;
     pointer-events: auto;
-} */
+}
 
 .modal {
     width: 408px;
@@ -582,6 +582,10 @@ address {
 .modal-close-btn:focus {
     background-color: #404bbf;
     border: none;
+    fill: #ffffff;
+}
+
+.modal-close-btn:focus + .modal-close-icon, .modal-close-btn:hover+.modal-close-icon {
     fill: #ffffff;
 }
 
@@ -696,11 +700,13 @@ address {
 
 }
 
-.modal-input-checkbox:checked + .modal-checkbox-label .checkbox-label-span {
+.modal-input-checkbox:checked + .checkbox-label-span {
     background-color: #404bbf;
     border: none;
     fill: #f4f4fd;
 }
+
+
 
 .checkbox-label-link {
     color: #4d5ae5;
