@@ -522,6 +522,13 @@ address {
     background-color: #4D5AE5;
     border: none;
     border-radius: 4px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-subscribe-btn:hover,
+.footer-subscribe-btn:focus {
+    background-color: #404bbf;
 }
 
 .footer-subscribe-icon {
@@ -725,5 +732,10 @@ address {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border-radius: 4px;
     margin: auto;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
 
+.modal-form-btn:hover,
+.modal-form-btn:focus {
+    background-color: #404bbf;;
 }
